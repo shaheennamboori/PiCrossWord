@@ -1,0 +1,39 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .grid-container {
+    margin-top: 20px;
+  }
+  
+  .grid {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-cell {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    font-weight: bold;
+  }
